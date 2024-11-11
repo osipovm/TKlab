@@ -1,7 +1,6 @@
 import numpy as np
 import math
 from itertools import combinations, product
-import random
 
 def generate_binary_matrix(cols):
     return list(product([0, 1], repeat=cols))
